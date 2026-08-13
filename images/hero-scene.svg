@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c27a"/>
+      <stop offset="100%" stop-color="#d9a441"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="960" cy="150" r="90" fill="#f5ecd9" opacity="0.85"/>
+  <g stroke="#f5ecd9" stroke-width="6" opacity="0.6">
+    <line x1="960" y1="30" x2="960" y2="0"/>
+    <line x1="1060" y1="70" x2="1085" y2="50"/>
+    <line x1="1100" y1="150" x2="1130" y2="150"/>
+    <line x1="1060" y1="230" x2="1085" y2="250"/>
+    <line x1="860" y1="70" x2="835" y2="50"/>
+    <line x1="820" y1="150" x2="790" y2="150"/>
+    <line x1="860" y1="230" x2="835" y2="250"/>
+  </g>
+  <!-- far mountains -->
+  <polygon points="0,420 150,260 320,420" fill="#8a4a3a" opacity="0.55"/>
+  <polygon points="220,420 420,220 640,420" fill="#8a4a3a" opacity="0.55"/>
+  <polygon points="550,420 760,250 980,420" fill="#8a4a3a" opacity="0.55"/>
+  <polygon points="850,420 1050,270 1200,420" fill="#8a4a3a" opacity="0.55"/>
+  <!-- near mountains -->
+  <polygon points="-20,470 200,300 480,470" fill="#5c1f1f"/>
+  <polygon points="380,470 650,280 980,470" fill="#4a1620"/>
+  <polygon points="850,470 1080,320 1220,470" fill="#5c1f1f"/>
+  <!-- snow caps -->
+  <polygon points="200,300 240,340 160,340" fill="#f5ecd9"/>
+  <polygon points="650,280 695,325 605,325" fill="#f5ecd9"/>
+  <polygon points="1080,320 1115,355 1045,355" fill="#f5ecd9"/>
+  <!-- ground -->
+  <rect x="0" y="460" width="1200" height="240" fill="#3a1414"/>
+  <rect x="0" y="460" width="1200" height="14" fill="#c89b3c"/>
+  <!-- llama silhouette -->
+  <g fill="#f5ecd9" transform="translate(150,430)">
+    <path d="M0 230 C0 230 4 150 10 120 C4 118 0 112 0 100 C0 70 20 45 40 40 C36 20 44 0 62 0 C80 0 84 24 78 40 C90 46 96 60 96 78 L96 150 C104 152 110 160 110 170 L110 230 L96 230 L96 190 L86 230 L72 230 L82 180 L82 100 L60 100 L60 230 L46 230 L46 130 L30 130 L30 230 Z"/>
+  </g>
+  <!-- decorative sun rays over llama removed for clarity -->
+</svg>
