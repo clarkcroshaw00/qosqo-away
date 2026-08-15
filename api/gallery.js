@@ -30,10 +30,7 @@ export default async function handler(req, res) {
       const imageUrl = imageFile
         ? (imageFile.type === 'external' ? imageFile.external.url : imageFile.file.url)
         : null;
-      const caption =
-  props.Caption?.rich_text?.[0]?.plain_text ||
-  props.Caption?.title?.[0]?.plain_text ||
-  '';
+      const caption = props.Caption?.rich_text?.[0]?.plain_text || '';
       return {
         id: page.id,
         imageUrl,
